@@ -13,7 +13,7 @@ async function printDocs (){
   <div class = "products" >
   <div><p>${doc.category}</p></div>
   <div><a href=${doc.image}></div>
-  <div><img src=${doc.image} width="100" height="100"></div>
+  <div id="images"><img src=${doc.image} width="100" height="100"></div>
   <div><h3>${doc.title}</h3></div>
   <div><h4>PRICE: ${doc.price} $</h4></div>
   </div>    `
